@@ -21,7 +21,7 @@ let status = `
 *│ 🕯️ Platform: heroku*
 *│ ⚙️ Hostname: ${os.hostname()}*
 *╰──────────────●●►*
-> © 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚢 𝚁𝙰𝚅𝙸𝙽𝙳𝚄 𝙰𝙺𝙰𝚂𝙷 🔥
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ-ᴍᴅ
 `
 await conn.sendMessage(from,{image:{url:config.ALIVE_IMG},caption:`${status}`},{quoted:mek})
 
