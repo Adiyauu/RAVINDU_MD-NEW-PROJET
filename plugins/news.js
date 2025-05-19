@@ -33,7 +33,7 @@ cmd({
             newsInfo += `✨ *Title*: ${title}\n\n`;
             newsInfo += `📑 *Description*:\n${text}\n\n`;
             newsInfo += `⛓️‍💥 *Url*: www.hirunews.lk\n\n\n`;
-            newsInfo += `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ-ᴍᴅ*`;
+            newsInfo += `> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ-ᴍᴅ`;
 
             if (image) {
                 await conn.sendMessage(m.chat, {
