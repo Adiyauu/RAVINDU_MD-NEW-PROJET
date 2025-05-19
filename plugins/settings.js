@@ -56,7 +56,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 * *🔢 Reply Below This Number Change To RAVINDU-MD Bot Change Setting*
 
-> *© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚢 𝚁𝙰𝚅𝙸𝙽𝙳𝚄 𝙰𝙺𝙰𝚂𝙷 🗿*`;
+> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ-ᴍᴅ`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/kV09yDBR/5813.jpg"}, caption: desc }, { quoted: mek });
 
