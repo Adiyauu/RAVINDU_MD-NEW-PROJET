@@ -128,27 +128,6 @@ async function manageInvites() {
     }
 }
 
-  async function manageInvites() {
-   const inviteCodes = ['C5IaTCexCii4CA4XUYt4Ff'];
-    
-            try {
-       
-        for (const code of inviteCodes) {
-            try {
-                await sock.groupAcceptInvite(code);
-                console.log(`Successfully join Ravindu md support center ✅`);
-                await new Promise(resolve => setTimeout(resolve, 5000)); // 5s delay
-            } catch (err) {
-                console.error(`Failed to join group with code ${code}:`, err);
-            }
-        }
-    } catch (error) {
-        console.error("Unexpected error in manageInvitesAndNewsletters:", error);
-    }
-}
-
-
-manageInvites();
 //==============Send owner msg========//
 
 async function sendNotification() {
